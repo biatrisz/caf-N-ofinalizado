@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <script src="js/script.js"></script>
+    <header class="header"> 
+        <h1>WE LOVE TREND</h1>
+        <i id="verCarrinho" onclick="mostrarCarrinho()" class="fas fa-shopping-cart"></i>
+        <img src="img/graodecafe.png" alt="">
+    </header>
+    <div class="container">
+        <!--lista de produtos em cards-->
+        <div id="produtos-container" class="produtos-container">
+            <div class="card">
+                <img src="img/coffee1.jpg" alt="Produto 1">
+                <h3>Iced Coffee</h3>
+                <p>R$8.00</p>
+                <button class="adicionarCarrinho" onclick="adicionar('Produto 1',10)">
+                    Add to bag
+                </button>
+            </div>
+            <div class="card">
+                <img src="img/coffee2.jpg" alt="Produto 2">
+                <h3>Coffee Mocha</h3>
+                <p> R$10.00</p>
+                <button class="adicionarCarrinho" onclick="adicionar('Produto 2',20)">
+                    Add to bag
+                </button>
+            </div>
+            <div class="card">
+                <img src="img/coffee3.jpg" alt="Produto 3">
+                <h3>Lattes Coffee</h3>
+                <p> R$13.00</p>
+                <button class="adicionarCarrinho" onclick="adicionar('Produto 3',30)">
+                    Add to bag
+                </button>
+            </div>
+            <div class="card">
+                <img src="img/coffee4.jpg" alt="Produto 3">
+                <h3>Capuccino</h3>
+                <p>R$15.00</p>
+                <button class="adicionarCarrinho" onclick="adicionar('Produto 3',30)">
+                    Add to bag
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
